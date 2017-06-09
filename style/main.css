@@ -1,0 +1,56 @@
+* {
+  box-sizing: padding-box;
+}
+
+h3, p {
+  color: rgb(255, 255, 255);
+}
+
+.table {
+  height: 700px;
+  width: 100%;
+  background: url(http://gifart.at.ua/_ph/25/820845943.jpg);
+  border: 1px solid black;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  border: 1px solid black;
+  background:rgb(200, 47, 47);
+  border-radius: 5px;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  opacity: 0.8;
+  text-align: center;
+}
+button:hover {
+    color: black;
+    background:rgb(200, 47, 47);
+    opacity: 0.5;
+   }
+
+.box_for_buttons{
+  height: 220px;
+  width: 153px;
+  margin: 10px;
+  float: left;
+}
+
+.box {
+  min-height: 61px;
+  height: auto;
+  width: 460px;
+  background:#1d2015;
+  margin: 20px;
+  border-radius: 5px;
+  float: left;
+  padding: 12px;
+  opacity: 0.8;
+}
+
+input {
+  width: 280px;
+  opacity: 1;
+}
